@@ -1,0 +1,252 @@
+
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+.body__index{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: none;
+    background-image: url("/images/masajes.jpg");
+    background-attachment: fixed;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+h1 {
+    font-size: 180%;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    background-color: rgba(128, 128, 128, 0.177);
+    width: 100%;
+    clear: both;
+    content: none;
+    display: table;
+    transition: all 1s;
+}
+
+header:hover {
+    background-color: rgb(117, 112, 106);
+}
+
+nav {
+    float: right;
+}
+
+
+nav ul li{
+    list-style: none;
+    margin-left: 25px;
+    padding: 25px 20px;
+    float: left;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    transition: all 1s;
+}
+
+nav ul li a:hover {
+    color: black;
+ }
+
+.yoga {
+    color: white;
+    margin-top: 400px;
+    padding: 30px;
+    
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 2%;
+    text-align: center;
+    font-size: small;
+    margin-top: auto;
+}
+
+
+
+        
+
+
+
+    .body__sobremi {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: none;
+        background-image: url("/images/mercedes3.jpg");
+        background-attachment: fixed;
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+        
+
+
+    .p__sobremi {font-family: Arial, Helvetica, sans-serif; color: white; background-color: rgba(128, 128, 128, 0.594);
+        text-align: left;
+        margin-top: 60px;
+        margin-right: 230px;
+        margin-left: 50px;
+        margin-bottom: 60px;
+        padding: 20px;
+        border: 5px solid;
+        width: 500px
+        }
+
+    .p__sobremi:hover {
+        transform: scale(1.1) translateY(-5px);
+        transition: all 1s;
+    }
+    
+.body__clases {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+        font-size: none;
+        background-image: url("/images/yoga.jpg");
+        background-attachment: fixed;
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        display: grid;
+        min-height: 100vh;
+        grid-template-rows: auto 1fr auto;
+}
+    
+.h2__particulares {
+    font-family: Arial, Helvetica, sans-serif; color: white; background-color: rgba(128, 128, 128, 0.594);
+    text-align: center;
+    padding: 10px;
+    margin-top: 80px;
+    border: 3px solid;
+    }
+
+  .h2__particulares:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+  }  
+
+.p__particulares {
+        font-family: Arial, Helvetica, sans-serif; color: white;
+        text-align: justify;
+        padding: 10px;
+        margin: auto;
+        width: 800px;
+    }
+
+.h2__grupales {
+    font-family: Arial, Helvetica, sans-serif; color: white; background-color: rgba(128, 128, 128, 0.594);
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    border: 3px solid;
+
+}
+
+.h2__grupales:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+.p__grupales {
+    font-family: Arial, Helvetica, sans-serif; color: white;
+    text-align: justify;
+    padding: 10px;
+    margin: auto;
+    width: 800px;
+}
+
+.footer__clases {
+    background-color: black;
+    color: white;
+    padding: 2%;
+    text-align: center;
+    font-size: small;
+    margin-top: auto;
+}
+
+.body__masajes {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: none;
+    background-image: url("/images/masajes3.jpg");
+    background-attachment: fixed;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    
+}
+
+.h2__shantala {
+    font-family: Arial, Helvetica, sans-serif; color: white; background-color: rgba(128, 128, 128, 0.594);
+    text-align: center;
+    padding: 10px;
+    margin-top: 80px;
+    border: 3px solid;
+    
+}
+
+.p__shantala {
+    font-family: Arial, Helvetica, sans-serif; color: white;
+        text-align: justify;
+        padding: 10px;
+        margin: auto;
+        width: 800px;
+}
+
+.h2__abhyanga {
+    font-family: Arial, Helvetica, sans-serif; color: white; background-color: rgba(128, 128, 128, 0.594);
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    border: 3px solid;
+
+}
+
+.p__abhyanga {
+    font-family: Arial, Helvetica, sans-serif; color: white;
+    text-align: justify;
+        padding: 10px;
+        margin: auto;
+        width: 800px;
+}
+
+.body__contacto {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: none;
+    background-image: url("/images/mercedes4.jpg");
+    background-attachment: fixed;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+.contacto {
+    font-family: Arial, Helvetica, sans-serif; color: white; background-color: rgba(128, 128, 128, 0.594);
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+    margin:auto;
+    border: 3px solid;
+    max-width: fit-content;
+    display:inline-block;
+}
