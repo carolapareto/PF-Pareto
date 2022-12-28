@@ -1,0 +1,31 @@
+.body__contacto {
+    font-family: Arial, Helvetica, sans-serif;
+    color: $mainColor;
+    background-image: url("../images/mercedes4.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+.contacto {
+    font-family: $mainFont;
+    color: $mainColor;
+    background-color: $secondaryColor;
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+    margin: auto;
+    border: 3px solid;
+}
+
+.h1__contacto {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.form {
+    font-size: 17px;
+}

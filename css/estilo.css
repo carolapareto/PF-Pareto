@@ -1,0 +1,337 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+*::-moz-selection {
+  background-color: black;
+}
+*::selection {
+  background-color: black;
+}
+
+.body__index {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../images/masajes.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+.body__index header {
+  background-color: rgba(128, 128, 128, 0.177);
+  width: 100%;
+  clear: both;
+  content: none;
+  display: table;
+  transition: all 1s;
+}
+.body__index nav {
+  float: right;
+}
+.body__index ul {
+  list-style: none;
+}
+.body__index nav ul li {
+  list-style: none;
+  margin-left: 25px;
+  padding: 25px 20px;
+  float: left;
+}
+.body__index nav ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: bold;
+  transition: all 1s;
+}
+.body__index nav ul li a:hover {
+  color: black;
+}
+
+.inicio {
+  font-family: "Cormorant Garamond", serif;
+  color: white;
+  background-color: rgba(132, 132, 132, 0.4);
+  text-align: left;
+  margin-top: 400px;
+  margin-bottom: 8px;
+  padding: 30px;
+  border: 0px solid;
+  width: 100%;
+}
+.inicio .h1__index {
+  font-size: 40px;
+}
+.inicio .h2__index {
+  font-size: 18px;
+}
+
+.body__sobremi {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: none;
+  background-image: url("../images/mercedes3.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
+.body__sobremi {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: none;
+  background-image: url("../images/mercedes3.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
+header {
+  background-color: rgba(128, 128, 128, 0.177);
+  width: 100%;
+  clear: both;
+  content: none;
+  display: table;
+  transition: all 1s;
+}
+
+header:hover {
+  background-color: rgb(117, 112, 106);
+}
+
+nav {
+  float: right;
+}
+
+ul {
+  list-style: none;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 25px;
+  padding: 25px 20px;
+  float: left;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: bold;
+  transition: all 1s;
+}
+
+nav ul li a:hover {
+  color: black;
+}
+
+.sobremi {
+  font-family: "Cormorant Garamond", serif;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.594);
+  text-align: left;
+  margin-top: 30px;
+  margin-right: 230px;
+  margin-left: 50px;
+  margin-bottom: 60px;
+  padding: 20px;
+  border: 5px solid;
+  width: 500px;
+}
+.sobremi .h1__sobremi {
+  font-size: 30px;
+}
+.sobremi .p__sobremi {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.sobremi:hover {
+  transform: scale(1.1) translateY(15px);
+  transition: all 1s;
+}
+
+.body__clases {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../images/yoga.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
+.h1__particulares {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 35px;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.177);
+  text-align: center;
+  padding: 10px;
+  margin-top: 80px;
+  border: 3px solid;
+}
+.h1__particulares:hover {
+  transform: scale(0.9);
+  transition: all 1s;
+}
+
+.p__particulares {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 22px;
+  color: white;
+  text-align: justify;
+  padding: 10px;
+  margin: auto;
+  width: 800px;
+}
+
+.h1__grupales {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 35px;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.177);
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+  border: 3px solid;
+}
+.h1__grupales:hover {
+  transform: scale(0.9);
+  transition: all 1s;
+}
+
+.p__grupales {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 22px;
+  color: white;
+  text-align: justify;
+  padding: 10px;
+  margin: auto;
+  width: 800px;
+}
+
+.body__masajes {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../images/masajes3.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
+.h1__shantala {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 35px;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.177);
+  text-align: center;
+  padding: 10px;
+  margin-top: 80px;
+  border: 3px solid;
+}
+.h1__shantala:hover {
+  transform: scale(0.9);
+  transition: all 1s;
+}
+
+.p__shantala {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 22px;
+  color: white;
+  text-align: justify;
+  padding: 10px;
+  margin: auto;
+  width: 800px;
+}
+
+.h1__abhyanga {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 35px;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.177);
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+  border: 3px solid;
+}
+.h1__abhyanga:hover {
+  transform: scale(0.9);
+  transition: all 1s;
+}
+
+.p__abhyanga {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 22px;
+  color: white;
+  text-align: justify;
+  padding: 10px;
+  margin: auto;
+  width: 800px;
+}
+
+.body__contacto {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-image: url("../images/mercedes4.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
+.contacto {
+  font-family: "Cormorant Garamond", serif;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.177);
+  text-align: center;
+  padding: 30px 30px 30px 30px;
+  margin: auto;
+  border: 3px solid;
+}
+
+.h1__contacto {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.form {
+  font-size: 17px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 2%;
+  text-align: center;
+  font-size: small;
+  margin-top: auto;
+}
+
+.footer__clases {
+  background-color: black;
+  color: white;
+  padding: 2%;
+  text-align: center;
+  font-size: small;
+  margin-top: auto;
+}/*# sourceMappingURL=estilo.css.map */

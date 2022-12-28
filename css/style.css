@@ -54,7 +54,7 @@ nav ul li a:hover {
     font-size: 18px;
 }
 
-.yoga {
+.inicio {
     font-family: 'Cormorant Garamond', serif;
     color: white;
     background-color: rgba(132, 132, 132, 0.4);
@@ -340,7 +340,7 @@ header:hover {
     font-size: 15px;
 }
 
-.yoga {
+.inicio {
     margin-top: 450px;
     margin-bottom: 2px;
     padding: 20px;
@@ -432,7 +432,7 @@ header:hover {
     }
 
 
-    .yoga {  
+    .inicio {  
         margin-top: 450px;
         margin-bottom: 2px;
         padding: 12px;
