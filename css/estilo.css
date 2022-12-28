@@ -334,4 +334,168 @@ nav ul li a:hover {
   text-align: center;
   font-size: small;
   margin-top: auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .p__particulares {
+    width: 80%;
+  }
+  .p__grupales {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .menu {
+    font-size: 85%;
+  }
+  .h1__index {
+    font-size: 33px;
+  }
+  .h2__index {
+    font-size: 15px;
+  }
+  .inicio {
+    margin-top: 450px;
+    margin-bottom: 2px;
+    padding: 20px;
+    border: 0px solid;
+    width: 100%;
+  }
+  .h1__sobremi {
+    font-size: 25px;
+  }
+  .p__sobremi {
+    font-size: 17px;
+  }
+  .h1__particulares {
+    font-size: 30px;
+  }
+  .p__particulares {
+    font-size: 19px;
+    width: 80%;
+  }
+  .h1__grupales {
+    font-size: 30px;
+  }
+  .p__grupales {
+    font-size: 19px;
+    width: 80%;
+  }
+  .h1__shantala {
+    font-size: 30px;
+  }
+  .p__shantala {
+    font-size: 19px;
+  }
+  .h1__abhyanga {
+    font-size: 30px;
+  }
+  .p__abhyanga {
+    font-size: 19px;
+  }
+  .h1__contacto {
+    font-size: 23px;
+  }
+  .form {
+    font-size: 15px;
+  }
+  .footer {
+    font-size: 85%;
+    padding: 2%;
+    bottom: 0px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .menu {
+    font-size: 70%;
+  }
+  .body__index {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+  }
+  .h1__index {
+    font-size: 20px;
+  }
+  .h2__index {
+    font-size: 13px;
+  }
+  .inicio {
+    margin-top: 450px;
+    margin-bottom: 2px;
+    padding: 12px;
+    border: 0px solid;
+    width: 100%;
+  }
+  .body__sobremi {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+  }
+  .sobremi {
+    flex: 1;
+    width: 300px;
+  }
+  .h1__sobremi {
+    font-size: 22px;
+  }
+  .p__sobremi {
+    font-size: 15px;
+  }
+  .body__clases {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+  }
+  .h1__particulares {
+    font-size: 25px;
+  }
+  .p__particulares {
+    font-size: 17px;
+    width: 80%;
+  }
+  .h1__grupales {
+    font-size: 25px;
+  }
+  .p__grupales {
+    font-size: 17px;
+    width: 80%;
+  }
+  .body__masajes {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+  }
+  .h1__shantala {
+    font-size: 25px;
+  }
+  .p__shantala {
+    font-size: 17px;
+    width: 80%;
+  }
+  .h1__abhyanga {
+    font-size: 25px;
+  }
+  .p__abhyanga {
+    font-size: 17px;
+    width: 80%;
+  }
+  .contacto {
+    padding: 10px 10px 21px 10px;
+    margin: auto;
+    border: 3px solid;
+  }
+  .h1__contacto {
+    font-size: 17px;
+  }
+  .form {
+    font-size: 14px;
+  }
+  .footer {
+    font-size: 70%;
+    padding: 2%;
+    bottom: 0px;
+    width: 100%;
+  }
 }/*# sourceMappingURL=estilo.css.map */
